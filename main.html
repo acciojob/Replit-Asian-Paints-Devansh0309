@@ -4,13 +4,30 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	 <script type="text/javascript" src="./script.js"></script>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<div class="grid">
+		<div id="1" class="box"></div>
+		<div id="2" class="box"></div>
+		<div id="3" class="box"></div>
+		<div id="4" class="box"></div>
+		<div id="5" class="box"></div>
+		<div id="6" class="box"></div>
+		<div id="7" class="box"></div>
+		<div id="8" class="box"></div>
+		<div id="9" class="box"></div>
+	</div>
+	<br/>
+	<label for="input-id">Enter box-id from 1-9</label>
+	<input id="input-id"type="number" onchange="changeColor()"/>
+	<br/>
+	<br/>
+	<label for="color-id">Enter color</label>
+	<input id="color-id"   onchange="changeColor()"/>
+   
 
 </body>
-
 </html>
